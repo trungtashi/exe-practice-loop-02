@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = Number(prompt('so tien gui (trVND)'))
+  let tiengui = a * 10**6
+  let thang = Number(prompt('so thang gui'))
+
+
+ let i = 1
+  text = '1.05'
+  while (i < thang )
+  {
+      text = text + '*' + '1.05'
+      i++
+
+  }
+  let tienlai = eval(text)*tiengui - tiengui
+  alert('tien lai = ' + tienlai)
+
+
+</script>
+
+</body>
+</html>
